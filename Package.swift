@@ -7,7 +7,7 @@ let package = Package(
     name: "lr-parse",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
+        .executable(
             name: "lr-parse",
             targets: ["lr-parse"]),
     ],
